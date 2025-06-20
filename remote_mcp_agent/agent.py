@@ -52,6 +52,7 @@ root_agent = Agent(
                 env={
                     "OPENAPI_MCP_HEADERS": NOTION_MCP_HEADERS,
                     "PATH": os.environ.get("PATH", "")  # Pass through the PATH
+                
                 },
             )
         ),
